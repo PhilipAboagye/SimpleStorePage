@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GDSC Store</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand">GDSC Store</a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Collection<span class="sr-only">(current)</span></a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                </li>
+            </ul>
+            <div>
+                <img src="images/icon-cart.svg" alt="">
+                <img src="/images/image-avatar.png" alt="" width="40">
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="d-flex flex-column flex-md-row justify-content-between p-5">
+            <!--left side // image-->
+            <div class="d-flex flex-column w-50 p-5">
+                <img class="img-responsive img" src="/images/image-product-1.jpg" alt="">
+                <div class="img-row d-none d-md-flex flex-column flex-md-row my-4 justify-content-between" >
+                    <img class="img" src="/images/image-product-1-thumbnail.jpg" alt="">
+                    <img class="img" src="/images/image-product-2-thumbnail.jpg" alt="">
+                    <img class="img" src="/images/image-product-3-thumbnail.jpg" alt="">
+                    <img class="img" src="/images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+
+            </div>
+            <!--product description-->
+            <div class="p-5">
+                <p id="p-caps" class="col-orange">SNEAKER COMPANY</p>
+                <h2>Full limited Edtion Sneakers</h2>
+                <p id="desc"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, velit alias! At quidem dolor sint!
+                     Autem voluptatum repellendus, a provident voluptates at. Aliquam, doloribus ab repellendus vel mollitia debitis 
+                     corrupti soluta ratione cumque, quidem, itaque molestias tenetur fuga voluptate? At excepturi cupiditate quis impedit,
+                      sunt dicta nobis optio corrupti possimus beatae veniam, laborum quae dignissimos! Praesentium quod fugit laboriosam,
+                       eligendi perferendis consequuntur, 
+                    vero itaque accusantium obcaecati alias, voluptatibus quam. Ipsam omnis fugiat iusto eligendi magni?
+                </p>
+                <div>
+                    <h3>$125.00<span id="percent" class="col-orange rounded">50%</span></h3>
+                    <p id="old">$250.00</p>
+                </div>
+                <!--button row-->
+                <div class="d-flex flex-column flex-md-row">
+                    <!--add/subtract button-->
+                    <div class="bg-light p-2 rounded">
+                        <button class="btn"><img src="/images/icon-minus.svg" alt=""></button>
+                        <span id="zero">0</span>
+                        <button class="btn"><img src="/images/icon-plus.svg" alt=""></button>
+
+                    </div>
+                    <!--add to cart btn-->
+                    <button class="btn btn-orange px-5 py-2 rounded text-white">
+                        <img src="/images/icon-cart.svg" alt="">
+                        Add to cart
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>

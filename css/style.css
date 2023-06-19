@@ -1,0 +1,37 @@
+.img{
+    border-radius: 2rem;
+    
+}
+
+.img-row > img{
+    width: 6.8rem;
+    margin: 0 10px;
+    /*border-radius: 1rem;*/
+}
+
+.col-orange{
+    color: #ff7d1a;
+}
+
+.btn-orange{
+    background-color: #ff7d1a;
+}
+
+#p-caps{
+    font-size: 1rem;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#percent{
+    padding: 0.2rem;
+    background-color: #ff7d1a69;
+    font-size: 16px;
+}
+
+#old{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
